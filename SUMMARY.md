@@ -1,7 +1,6 @@
 # Summary
 
-* [Android](Android)
-  * [《第一行代码》笔记](Android/第一行代码.md)
+* [Android](Android/Adroid.md)
   * [Android——持久化技术](Android/Android——持久化技术.md)
 * [C#](Csharp/Csharp.md)
 * [正则表达式](Regex/Regex.md)
