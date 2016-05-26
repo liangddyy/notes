@@ -101,6 +101,24 @@ SharedPreferences pref = getSharedPreferences("data", MODE_PRIVATE);
 				Log.d("MainActivity", "married is " + married);
 ```
 
+### 封装
+
+为了便捷，通常会用一个工具类分装一下SharedPreferences 的一些操作，如：
+
+```
+public class PrefUtils {
+    //String
+    public static void setString(Context ctx,String key,String defValue) {
+        SharedPreferences sp = ctx.getSharedPreferences("config", Context.MODE_PRIVATE);
+        sp.edit().putString(key, defValue).commit();
+    }
+    public static String getString(Context ctx,String key,String defValue) {
+        SharedPreferences sp = ctx.getSharedPreferences("config", Context.MODE_PRIVATE);
+        return sp.getString(key, defValue);
+    }
+}
+```
+
 ## 3. SQLite数据库存储*
 
 SQLiteOpenHelper.java
