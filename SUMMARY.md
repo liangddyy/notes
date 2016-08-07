@@ -8,7 +8,8 @@
     * [ViewPager](Android/Android——动画/ViewPager.md)
   * [常用库](Android/常用库/Android常用库.md)
     * [SlidingMenu](Android/常用库/SlidingMenu.md)
-    * [xUtils](Android/Android——开源库/xUtils.md)
+    * [xUtils](Android/常用库/xUtils.md)
+    * [Gson](Android/常用库/Gson.md)
   * 多线程
     * [AsyncTask 异步类](Android/多线程/AsyncTask 异步类.md)
 * C#
