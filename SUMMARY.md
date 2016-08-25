@@ -12,7 +12,7 @@
     * [Gson](Android/常用库/Gson.md)
   * 多线程
     * [AsyncTask 异步类](Android/多线程/AsyncTask 异步类.md)
-* C#
+* [Java](Java.md)
 * 正则表达式
   * [常用的正则表达式](Regex/常用的正则表达式.md)
 * Typecho
