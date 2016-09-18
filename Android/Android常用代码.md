@@ -1,5 +1,48 @@
 # Android常用代码
 
+## 点击按钮隐藏软键盘
+
+```
+//隐藏键盘
+InputMethodManager imm =(InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+imm.hideSoftInputFromWindow(qrStrEditText.getWindowToken(), 0);
+```
+
+## EditText不自动获取焦点
+
+在父控件中添加下面代码 用于截断焦点
+
+```
+android:focusable="true"
+android:focusableInTouchMode="true"
+```
+
+## 复制粘贴
+
+```
+/**
+ * 文本复制
+ * @param content
+ */
+public static void copy(Context context,String content)
+{
+    // 得到剪贴板管理器
+    ClipboardManager cmb = (ClipboardManager)context.getSystemService(Context.CLIPBOARD_SERVICE);
+    cmb.setText(content.trim());
+}
+/**
+ * 文本粘贴
+ * @param context
+ * @return
+ */
+public static String paste(Context context)
+{
+    // 得到剪贴板管理器
+    ClipboardManager cmb = (ClipboardManager)context.getSystemService(Context.CLIPBOARD_SERVICE);
+    return cmb.getText().toString().trim();
+}
+```
+
 ## 解决启动时白屏
 
 style
