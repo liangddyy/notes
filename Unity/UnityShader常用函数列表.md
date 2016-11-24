@@ -1,5 +1,16 @@
 # Unity Shader常用函数列表
 
+## Unity内置矩阵（float4x4）
+
+UNITY_MATRIX_MVP        当前模型 视图 投影 矩阵
+UNITY_MATRIX_MV           当前模型 视图 矩阵
+UNITY_MATRIX_V              当前视图矩阵。
+UNITY_MATRIX_P              目前的投影矩阵
+UNITY_MATRIX_VP            当前视图 投影 矩阵
+UNITY_MATRIX_T_MV       模型*视图*转 矩阵
+UNITY_MATRIX_IT_MV      模型*视图*逆 转 矩阵
+UNITY_MATRIX_TEXTURE0   UNITY_MATRIX_TEXTURE3          纹理变换矩阵
+
 ## CG标准函数库
 
 Cg 标准函数库主要分为五个部分:
