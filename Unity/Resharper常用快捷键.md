@@ -1,4 +1,4 @@
-配置源码跳转
+配置源码跳转：
 
 Resharper - Options - Tools - External Sources - Navigation to Sources(全选)
 
