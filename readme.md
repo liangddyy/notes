@@ -2,7 +2,7 @@
 
 test [GitBook](https://liangddyy.gitbooks.io/notes/content/) 
 
-写在这里的内容，大多都很凌乱。
+弃用此仓库。文件已转移。
 
 
 
